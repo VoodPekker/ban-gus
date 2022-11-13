@@ -1,0 +1,296 @@
+html, 
+body {
+   height: 100%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+.main-page {
+    background: linear-gradient(234.63deg, #B3AFAF -4.59%, #DDDDCC -4.58%, #A5DEFF -4.57%, rgba(193, 219, 234, 0.458649) 36.93%, rgba(215, 217, 218, 0.0360978) 70.14%) ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+header {
+    margin-top: 34px;
+    margin-bottom: 58px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-text {
+    margin-left: 18px;
+}
+
+
+.banderogus-container {
+    background: #ffffff;
+    padding: 60px 56px;
+    align-self: center;
+}
+
+
+
+.banderogus-title {
+    color: #1B1C20;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+}
+
+.banderogus-greeting {
+    color: #1B1C20;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.banderogus-start-text {
+    color: #FF6B0A;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 48px;
+
+}
+
+.banderogus-descr {
+    color: #1B1C20;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.banderogus-launch {
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.main-page-row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.banderogus-image {
+    align-self: flex-end;
+}
+
+.gus-facts {
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gus-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1B1C20;
+    margin: 16px 0;
+}
+
+.gus-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1B1C20;
+    width: 875px;
+}
+
+.gus-facts-container {
+    width: 1170px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.gus-facts-item {
+    width: 33%;
+}
+
+.gus-fact-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1C20;
+    margin: 12px 0 32px 0;
+}
+
+.gus-fact-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1C20;
+    width: 280px;
+}
+
+.victory-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.victory-bgd {
+    background: linear-gradient(246.98deg, #D2CCCC -28.44%, #DDDDCC -28.42%, #A5DEFF -28.41%, rgba(193, 219, 234, 0.458649) 42.47%, rgba(255, 255, 255, 0.0360978) 99.2%, rgba(216, 217, 217, 0.0104188) 122.82%, rgba(217, 217, 217, 0) 122.84%, #FCF328 122.84%);
+    width: 1170px;
+    padding: 72px 0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.victory-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1B1C20;
+    margin: 16px 0;
+}
+
+.victory-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1B1C20;
+    width: 875px;
+}
+
+.modal-bgd {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: hsl(228, 8%, 12%, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.modal-form-container {
+    background: #FFFFFF;
+    padding: 32px 92px 60px 92px;
+    position: relative;
+}
+
+.modal-form-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;  
+    color: #1B1C20;
+    margin: 32px 0 12px 0;
+}
+
+.modal-form-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1C20;
+    margin-bottom: 24px;
+}
+
+.modal-form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.modal-field-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1C20;
+    margin-bottom: 8px;
+}
+
+.modal-field-input {
+    border: 1px solid #005BBB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1B1C20;
+    padding: 4px 8px;
+}
+
+.modal-form-btn {
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 14px;
+    color: #1B1C20;
+    cursor: pointer;
+    background: none;
+}
+
+.modal-descr {
+    margin-bottom: 0;
+}
+
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
